@@ -158,16 +158,16 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen w-full bg-neutral-950 text-white flex flex-col justify-center px-6 py-20 md:px-16 lg:px-24 border-t border-neutral-900 overflow-hidden"
+      className="relative z-10 w-full bg-transparent text-white flex flex-col justify-center px-6 py-12 md:py-16 md:px-16 lg:px-24 border-t border-white/10 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto w-full">
         {/* Large Editorial Heading */}
-        <h2 className="text-5xl sm:text-6xl md:text-7xl font-black uppercase tracking-tight mb-12 text-white">
+        <h2 className="text-4xl sm:text-5xl md:text-6xl font-black uppercase tracking-tight mb-8 text-white">
           Intro
         </h2>
 
         {/* Two-column layout (Desktop) */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center mb-10">
           {/* Left Column: Portrait */}
           <div className="lg:col-span-5 flex justify-center">
             <div className="relative rounded-2xl overflow-hidden bg-white/5 border border-white/10 p-4 backdrop-blur-md shadow-2xl max-w-md w-full">

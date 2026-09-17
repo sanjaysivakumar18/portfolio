@@ -77,11 +77,11 @@ export default function Projects() {
     <section
       id="projects"
       ref={containerRef}
-      className="min-h-screen w-full bg-neutral-950 text-white flex flex-col justify-center px-6 py-20 md:px-16 lg:px-24 border-t border-neutral-900 select-none"
+      className="relative z-10 w-full bg-transparent text-white flex flex-col justify-center px-6 py-12 md:py-16 md:px-16 lg:px-24 border-t border-white/10 select-none"
     >
       <div className="max-w-7xl mx-auto w-full">
         {/* Header Section */}
-        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-20">
+        <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10 md:mb-12">
           <div>
             <h2 className="text-5xl sm:text-6xl md:text-7xl font-black uppercase tracking-tight text-white">
               SELECTED{' '}

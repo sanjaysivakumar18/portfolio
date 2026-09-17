@@ -115,7 +115,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="min-h-screen w-full bg-neutral-950 text-white flex flex-col justify-center px-6 py-20 md:px-16 lg:px-24 border-t border-neutral-900 select-none"
+      className="relative z-10 w-full bg-transparent text-white flex flex-col justify-center px-6 py-12 md:py-16 md:px-16 lg:px-24 border-t border-white/10 select-none"
     >
       <div className="max-w-7xl mx-auto w-full">
         {/* Right-aligned Oversized Editorial Header with GSAP Entrance */}

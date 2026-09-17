@@ -101,7 +101,7 @@ export default function Contact() {
     <section
       id="contact"
       ref={sectionRef}
-      className="relative min-h-screen w-full bg-neutral-950 text-white flex flex-col justify-center px-6 py-20 md:px-16 lg:px-24 border-t border-neutral-900 overflow-hidden select-none"
+      className="relative z-10 w-full bg-transparent text-white flex flex-col justify-center px-6 py-12 md:py-16 md:px-16 lg:px-24 border-t border-white/10 overflow-hidden select-none"
     >
       {/* Ambient Lime Glow */}
       <div

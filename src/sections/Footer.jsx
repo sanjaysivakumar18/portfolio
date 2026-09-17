@@ -56,13 +56,8 @@ export default function Footer() {
     <footer
       id="footer"
       ref={footerRef}
-      className="relative min-h-[60vh] w-full bg-neutral-950 text-white flex flex-col justify-between px-6 pt-16 pb-8 md:px-16 lg:px-24 border-t border-neutral-900 overflow-hidden select-none"
+      className="relative z-10 w-full bg-transparent text-white flex flex-col justify-between px-6 pt-12 pb-6 md:px-16 lg:px-24 border-t border-white/10 overflow-hidden select-none"
     >
-      {/* Cinematic Dark Gradient Overlay */}
-      <div
-        aria-hidden="true"
-        className="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/95 to-neutral-950/80 pointer-events-none z-0"
-      />
 
       <div className="max-w-7xl mx-auto w-full relative z-10 flex flex-col justify-between flex-grow">
         {/* Main Footer Typography */}

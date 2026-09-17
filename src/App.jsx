@@ -5,10 +5,12 @@ import Services from './sections/Services';
 import Projects from './sections/Projects';
 import Contact from './sections/Contact';
 import Footer from './sections/Footer';
+import GalaxyEffect from './components/GalaxyEffect';
 
 export default function App() {
   return (
-    <main className="min-h-screen bg-neutral-950 text-white">
+    <main className="relative min-h-screen bg-[#050816] text-white overflow-x-hidden">
+      <GalaxyEffect />
       <Hero />
       <About />
       <Services />
